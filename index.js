@@ -22,6 +22,10 @@ var appendKitten = kittens.splice('Broom')
 return kittens
 }
 
+var appendKitten = function(name) {
+  
+}
+
 function prependKitten(name) {
 var prependKitten = kittens.splice(0, 0, 'Arnold')
 return kittens.concat(prependKitten)
